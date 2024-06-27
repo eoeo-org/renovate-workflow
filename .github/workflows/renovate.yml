@@ -44,7 +44,7 @@ jobs:
           private-key: ${{ secrets.EOEO_RENOVATE_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
 
-      - name: 'Checkout ${{ env.config_file }}'
+      - name: "Checkout ${{ env.config_file }}"
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
         with:
           sparse-checkout: |
