@@ -2,7 +2,7 @@ on:
   workflow_call:
     inputs:
       renovate_actor:
-        default: "j-eoeo-renovate[bot]"
+        default: "eoeo-renovate[bot]"
         required: false
         type: string
       repoCache:
