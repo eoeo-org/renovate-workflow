@@ -37,7 +37,7 @@ permissions: {}
 
 jobs:
   renovate:
-    uses: j-eoeo/renovate-workflow/.github/workflows/_renovate.yml@main
+    uses: eoeo-org/renovate-workflow/.github/workflows/_renovate.yml@main
     with:
       repoCache: ${{ inputs.repoCache }}
     secrets:
